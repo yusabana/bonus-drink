@@ -1,8 +1,8 @@
 class BonusDrink
   BONUS_CONDITION_NUM = 3
 
-  def self.total_count_for(amount)
-    count_for(amount)
+  def self.total_count_for(num)
+    count_for(num)
   end
 
   def self.count_for(num, total=0)
